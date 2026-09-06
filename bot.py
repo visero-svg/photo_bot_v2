@@ -357,7 +357,7 @@ async def handler(event):
 
 # ======================= ЗАПУСК =======================
 def run_web():
-    port = int(os.environ.get("PORT", 8000))
+    port = int(os.environ.get("PORT", 7860))
     app.run(host="0.0.0.0", port=port, debug=False, use_reloader=False)
 
 async def main():
